@@ -1,0 +1,46 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    color: #010101;
+    margin: 0px;
+    padding: 0px;
+    direction: ltr;
+}
+.heroSection{
+    width: 100%;
+    height: auto;
+    padding: 52px 0px 100px 0px;
+    background: #fcdb00;
+    box-sizing: border-box;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+.logo{
+    width: 50%;
+    float: left;
+}
+.menu{
+    width: 50%;
+    float: right;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left:50px;
+}
+.menu ul li a{
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.menu ul li:first-child{
+    margin-left: 0px;
+}
