@@ -5,6 +5,9 @@ body{
     padding: 0px;
     direction: ltr;
 }
+.clear{
+    clear: both;
+}
 .heroSection{
     width: 100%;
     height: auto;
@@ -43,4 +46,45 @@ body{
 }
 .menu ul li:first-child{
     margin-left: 0px;
+}
+.heroDesc{
+    width: 50%;
+    float: left;
+    padding-top:145px;
+    box-sizing: border-box;
+
+}
+.heroImg{
+    width:50%;
+    float: right;
+}
+.heroDesc h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.heroDesc h2{
+    color: #313841;
+    font-size: 20px;
+    font-weight: normal;
+    padding-right: 85px;
+    box-sizing: border-box;
+}
+.heroDesc p{
+    font-size: 16px;
+    color: #555555;
+    padding-right: 85px;
+    box-sizing: border-box;
+}
+a.link{
+    color: #010101;
+    font-size: 42px;
+    text-decoration: none;
+    margin-right: 35px;
+}
+a.link:last-child{
+    margin-right: 0px;
+}
+.heroImg img{
+    margin-top:60px;
+    margin-left: 155px;
 }
